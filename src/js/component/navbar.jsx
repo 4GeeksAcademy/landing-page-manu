@@ -2,11 +2,9 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-            <div className="container-fluid d-flex col-8">
-                <div className="mx-auto">
+        <nav className="navbar navbar-dark fixed-top bg-dark navbar-expand-lg">
+            <div className="container-fluid col-8">
                     <a className="navbar-brand " href="#">Start Bootstrap</a>
-                </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

@@ -10,15 +10,17 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="col-8 vh-100 h-100  mx-auto justify-content-between align-items-center text-center ">
+			<div className="col-8 mx-auto mt-5 flex-grow-1 d-flex flex-column align-items-center">
 				<Jumbotron />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+				<div className="d-flex justify-content-center flex-wrap">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
-			
 			<Footer />
+			
 		</> 
 	);
 };
